@@ -3,6 +3,7 @@
 import { User } from 'lucide-react'
 import { useFileInput } from './Root'
 import { useMemo } from 'react'
+import Image from 'next/image' 
 
 export interface ImagePreviewProps {}
 
@@ -31,10 +32,12 @@ export function ImagePreview(props: ImagePreviewProps) {
     )
   } else {
     return (
-      <img
+      <Image
         className="h-16 w-16 rounded-full bg-violet-50 object-cover dark:bg-zinc-800"
         src={previewURL}
         alt=""
+        width={64}
+        height={64}
       />
     )
   }
