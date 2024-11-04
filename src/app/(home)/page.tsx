@@ -1,11 +1,11 @@
-import * as Input from '@/components/Form/Input'
-import * as FileInput from '@/components/Form/FileInput'
-import * as Select from '@/components/Form/Select'
-import { Bold, Italic, Link, List, ListOrdered, Mail } from 'lucide-react'
-import { Button } from '@/components/Button'
-import { SettingsTabs } from './SettingsTabs'
-import { CountrySelect } from './CountrySelect'
-import { Textarea } from '@/components/Form/Textarea'
+import * as Input from '@/components/Form/Input';
+import * as FileInput from '@/components/Form/FileInput';
+import * as Select from '@/components/Form/Select';
+import { Bold, Italic, Link, List, ListOrdered, Mail } from 'lucide-react';
+import { Button } from '@/components/Button';
+import { SettingsTabs } from './SettingsTabs';
+import { CountrySelect } from './CountrySelect';
+import { Textarea } from '@/components/Form/Textarea';
 
 export default function Home() {
   return (
@@ -82,7 +82,7 @@ export default function Home() {
                 id="email"
                 type="email"
                 name="email"
-                defaultValue="carlos@email.com"
+                defaultValue="Carlos@gmail.com"
               />
             </Input.Root>
           </div>
@@ -236,5 +236,5 @@ export default function Home() {
         </div>
       </form>
     </>
-  )
+  );
 }
