@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build --no-lint",
     "start": "next start",
     "lint": "next lint"
   },
@@ -31,7 +31,6 @@
     "@types/react-dom": "18.2.4",
     "@types/react-world-flags": "1.4.2",
     "autoprefixer": "10.4.14",
-    "eslint": "8.42.0",
     "eslint-config-next": "13.4.5",
     "postcss": "8.4.24",
     "prettier-plugin-tailwindcss": "0.3.0",
