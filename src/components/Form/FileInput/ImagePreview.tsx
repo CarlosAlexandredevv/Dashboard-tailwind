@@ -20,6 +20,7 @@ export function ImagePreview(props: ImagePreviewProps) {
     if (files.length === 0) {
       return null
     }
+
     return URL.createObjectURL(files[0])
   }, [files])
 
@@ -31,16 +32,13 @@ export function ImagePreview(props: ImagePreviewProps) {
     )
   } else {
     return (
-      <div className="h-16 w-16 rounded-full bg-violet-50 object-cover dark:bg-zinc-800 overflow-hidden">
-        <Image
-          src={previewURL}
-          alt=""
-          width={64}
-          height={64}
-          className="object-cover"
-          unoptimized
-        />
-      </div>
+      <Image
+        className="h-16 w-16 rounded-full bg-violet-50 object-cover dark:bg-zinc-800"
+        src={previewURL}
+        alt=""
+        width={64}
+        height={64}
+      />
     )
   }
 }
