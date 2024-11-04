@@ -32,5 +32,5 @@ export function UsedSpaceWidget(props: UsedSpaceWidgetProps) {
         </button>
       </div>
     </div>
-  )
+  );
 }

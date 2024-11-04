@@ -1,5 +1,5 @@
-import { LogOut } from 'lucide-react'
-import { Button } from '../Button'
+import { LogOut } from "lucide-react";
+import { Button } from "../Button";
 
 export interface ProfileProps {}
 
@@ -23,5 +23,5 @@ export function Profile() {
         <LogOut className="h-5 w-5 text-zinc-500 dark:text-zinc-400" />
       </Button>
     </div>
-  )
+  );
 }

@@ -1,14 +1,14 @@
-'use client'
+"use client";
 
-import { Search, LifeBuoy, Cog, Menu } from 'lucide-react'
-import * as Input from '../Form/Input'
-import { Logo } from './Logo'
-import { Profile } from './Profile'
-import { Navigation } from './Navigation'
-import { UsedSpaceWidget } from './UsedSpaceWidget'
-import { NavItem } from './Navigation/NavItem'
-import * as Collapsible from '@radix-ui/react-collapsible'
-import { Button } from '../Button'
+import { Search, LifeBuoy, Cog, Menu } from "lucide-react";
+import * as Input from "../Form/Input";
+import { Logo } from "./Logo";
+import { Profile } from "./Profile";
+import { Navigation } from "./Navigation";
+import { UsedSpaceWidget } from "./UsedSpaceWidget";
+import { NavItem } from "./Navigation/NavItem";
+import * as Collapsible from "@radix-ui/react-collapsible";
+import { Button } from "../Button";
 
 export function Sidebar() {
   return (
@@ -50,5 +50,5 @@ export function Sidebar() {
         </div>
       </Collapsible.Content>
     </Collapsible.Root>
-  )
+  );
 }

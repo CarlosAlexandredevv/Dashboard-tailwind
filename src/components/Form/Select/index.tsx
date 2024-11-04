@@ -1,13 +1,13 @@
-import { Item, ItemProps } from './Item'
-import { Root, RootProps } from './Root'
-import { Separator, SeparatorProps } from './Separator'
-import { Trigger, TriggerProps } from './Trigger'
-import { Content, ContentProps } from './Content'
-import { ItemPrefix, ItemPrefixProps } from './ItemPrefix'
-import { ItemText, ItemTextProps } from './ItemText'
-import { Value, ValueProps } from './Value'
+import { Item, ItemProps } from "./Item";
+import { Root, RootProps } from "./Root";
+import { Separator, SeparatorProps } from "./Separator";
+import { Trigger, TriggerProps } from "./Trigger";
+import { Content, ContentProps } from "./Content";
+import { ItemPrefix, ItemPrefixProps } from "./ItemPrefix";
+import { ItemText, ItemTextProps } from "./ItemText";
+import { Value, ValueProps } from "./Value";
 
-export { Item, Root, Separator, Trigger, Content, ItemPrefix, ItemText, Value }
+export { Item, Root, Separator, Trigger, Content, ItemPrefix, ItemText, Value };
 
 export type {
   ItemProps,
@@ -18,4 +18,4 @@ export type {
   ItemPrefixProps,
   ItemTextProps,
   ValueProps,
-}
+};

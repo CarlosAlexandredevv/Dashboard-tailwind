@@ -1,15 +1,15 @@
-'use client'
+"use client";
 
-import { FileItem } from './FileItem'
-import { useFileInput } from './Root'
+import { FileItem } from "./FileItem";
+import { useFileInput } from "./Root";
 
 export interface FileListProps {}
 
 export function FileList(props: FileListProps) {
-  const { files } = useFileInput()
+  const { files } = useFileInput();
 
   if (files.length === 0) {
-    return null
+    return null;
   }
 
   return (
@@ -23,8 +23,8 @@ export function FileList(props: FileListProps) {
             type={file.type}
             state="error"
           />
-        )
+        );
       })}
     </div>
-  )
+  );
 }
